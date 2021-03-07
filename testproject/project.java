@@ -8,4 +8,8 @@ public class project {
            System.out.println("Python for the win.");
        } 
     }
+
+    public void name() {
+        
+    }
 }
