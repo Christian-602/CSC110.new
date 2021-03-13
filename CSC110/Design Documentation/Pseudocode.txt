@@ -1,4 +1,5 @@
 // youtube explanation: https://youtu.be/mn_j_iRz3-4
+// the youtube video ive provided above explains the general idea of the code a little better, unsure if this was needed, but will do anyway ... lol
 
 // typed out pseudocode v1 from my whiteboard from which I originally wrote it out on:
 
