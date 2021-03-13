@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 import org.graalvm.compiler.nodes.memory.address.AddressNode.Address;
 
-public class ReadingLargeFiles2 {
+public class w6 {
 	public static ArrayList<String> main(String[] args) {
         var userList = new ArrayList<String>();
 		var fileName = "C:\\Users\\chris\\OneDrive\\Desktop\\codecademy\\CSC110\\data-1.txt";
@@ -140,6 +140,10 @@ public static void writeData(ArrayList<String> userList) throwsIOException {
 
 }
 
-
+var userList = getData(fileName);
+writeData(userList);
+catch (Exception e) {
+    //TODO handle exception
+    System.out.println(e.getMessage());
 }
 
