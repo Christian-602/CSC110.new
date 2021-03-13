@@ -1,4 +1,4 @@
-// youtube explanation:
+// youtube explanation: https://youtu.be/mn_j_iRz3-4
 
 // typed out pseudocode v1 from my whiteboard from which I originally wrote it out on:
 
