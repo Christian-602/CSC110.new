@@ -1,0 +1,21 @@
+Name, Address, Phone, CreditAmount
+David Smith, 1230 Lane Street, 678-9080,100.00
+John Smith, 1230 Lane Street, 678-9080,100.00
+Mary Smith, 1230 Lane Street, 678-9080,100.00
+Sandy Smith, 1230 Lane Street, 678-9080,100.00
+Mike Moore, 4567 Sporty Street, 678-5678,100.00
+David Smith, 1230 Lane Street, 678-9080,100.00
+John Smith, 1230 Lane Street, 678-9080,100.00
+Mary Smith, 1230 Lane Street, 678-9080,100.00
+Sandy Smith, 1230 Lane Street, 678-9080,100.00
+Mike Moore, 4567 Sporty Street, 678-5678,100.00
+XDavid Smith, 1230 Lane Street, 678-9080,100.00
+XJohn Smith, 1230 Lane Street, 678-9080,100.00
+XMary Smith, 1230 Lane Street, 678-9080,100.00
+XSandy Smith, 1230 Lane Street, 678-9080,100.00
+XMike Moore, 4567 Sporty Street, 678-5678,100.00
+ZDavid Smith, 1230 Lane Street, 678-9080,100.00
+XJohn Smith, 1230 Lane Street, 678-9080,100.00
+XMary Smith, 1230 Lane Street, 678-9080,100.00
+ZSandy Smith, 1230 Lane Street, 678-9080,100.00
+XMike Moore, 4567 Sporty Street, 678-5678,100.00
