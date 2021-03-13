@@ -8,45 +8,23 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 // importing tools that'll be used moving forward
 
-public class finalproject {
+public class wow {
     public static void main(String[] args) throws IOException {
         var fileName = "C:\\Users\\Chris\\Desktop\\sample100csv.csv";
-        var goodDataExport = "C:\\Users\\Chris\\Desktop\\CSC110\\goodDataExport.txt";
-        var badDataExport = "C:\\Users\\Chris\\Desktop\\CSC110\\badDataExport.txt";
         //above - setting "nodes" for paths
 
         var outFilePathfN = Paths.get(fileName);
-        var outFilePathGood = Paths.get(goodDataExport);
-        var outFilePathBad = Paths.get(badDataExport);
         // above - paths created between respective nodes
 
         if(!Files.exists(fileName)){
             System.out.println("Error 001: The following file does not exist: " + fileName);
             return;
         }
-        if(!Files.exists(goodDataExport)){
-            System.out.println("Error 001: The following file does not exist: " + goodDataExport);
-            return;
-        }
-        if(!Files.exists(badDataExport)){
-            System.out.println("Error 001: The following file does not exist: " + badDataExport);
-            return;
-        }
         //above - set error messages if file path is obstructed
 
         //below - setting up read/write framework
         var reader = Files.newBufferedReader(outFilePathfN);
-        var goodWriter = Files.newBufferedWriter(outFilePathGood);
-        var BadWriter = Files.newBufferedWriter(outFilePathBad);
         var dataRead = reader.readLine();
-
-        var userList = getData(fileName);
-    writeData(userList);
-    catch (Exception e) {
-        
-    }
-    //TODO handle exception
-    System.out.println(e.getMessage());
 
         //below - setting up framework for Tree
         var set = new TreeSet<String>();

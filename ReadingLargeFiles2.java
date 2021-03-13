@@ -140,10 +140,6 @@ public static void writeData(ArrayList<String> userList) throwsIOException {
 
 }
 
-var userList = getData(fileName);
-writeData(userList);
-catch (Exception e) {
-    //TODO handle exception
-    System.out.println(e.getMessage());
+
 }
 
