@@ -1,0 +1,56 @@
+// youtube explanation:
+
+// typed out pseudocode v1 from my whiteboard from which I originally wrote it out on:
+
+
+import Reader
+import Writer
+import Files
+import Paths
+import dataStructure
+
+inputData = "C:\\Desktop\\data.txt"
+goodDataSort = "C:\\Desktop\\gData.txt"
+badDataSort = "C:\\Desktop\\bData.txt"
+
+outData = Pathway.create(inputData)
+outGood = Pathway.create(goodDataSort)
+outBad = Pathway.create(badDataSort)
+
+if:
+  filepath.doesntExist(outData, outGood, outBad)
+    then:
+      print("file doesn't exist at " [0], [1], [2]) // prints according to whether element 1,2, or 3 are present
+      
+    reader = outData.reader()
+    goodWriter = outGood.writer()
+    badWriter = outBad.writer()
+    
+Structure = new Array(outData)
+  outData.reader.readLine()
+  
+x = 1;
+
+  while(!outData = null):
+    outData.reader.readLine()
+ splitter = outData.split(",")
+  splitter.categories.sort() =
+    { serialNumber, company, employee, description, leave }
+    
+ splitter.categories.zip([0,1,2,3,4])
+  list = Array.convertToList(Structure)
+ goodData.writer()
+ 
+ x = x + 1;
+ 
+  outData.reader.readLine()
+  
+  // loops lines 34 - 44 from then onward
+  
+  if(data.beginsWith("X)":
+    return;
+  
+  while(outData = null):
+  outData.reader.close()
+  goodWriter.close()
+  badWriter.close()
